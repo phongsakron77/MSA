@@ -385,7 +385,7 @@
             attribution: '',
             interactive: true,
             dataVar: 'json_Landuse_5',
-            layerName: 'layer_การใช้ประโยชน์ที่ดิน_5',
+            layerName: 'layer_landuse_5',
             pane: 'pane_Landuse_5',
             onEachFeature: pop_Landuse_5,
             style: style_Landuse_5_0,
@@ -469,11 +469,11 @@
         bounds_group.addLayer(layer_Boudary_6);
         map.addLayer(layer_Boudary_6);
         var overlaysTree = [
-            {label: '<img src="legend/Boudary_6.png" /> Boudary', layer: layer_Boudary_6},
+            {label: '<img src="legend/Boudary_6.png" /> ขอบเขตหมู่บ้าน', layer: layer_Boudary_6},
             {label: 'Landuse<br /><table><tr><td style="text-align: center;"><img src="legend/Landuse_5_A0.png" /></td><td>A</td></tr><tr><td style="text-align: center;"><img src="legend/Landuse_5_M1.png" /></td><td>M</td></tr><tr><td style="text-align: center;"><img src="legend/Landuse_5_U2.png" /></td><td>U</td></tr><tr><td style="text-align: center;"><img src="legend/Landuse_5_W3.png" /></td><td>W</td></tr></table>', layer: layer_Landuse_5},
-            {label: '<img src="legend/Stream_4.png" /> Stream', layer: layer_Stream_4},
-            {label: '<img src="legend/Drou_msa_3.png" /> Drou_msa', layer: layer_Drou_msa_3},
-            {label: '<img src="legend/Flood_msa_2.png" /> Flood_msa', layer: layer_Flood_msa_2},
+            {label: '<img src="legend/Stream_4.png" /> เส้นทางน้ำ', layer: layer_Stream_4},
+            {label: '<img src="legend/Drou_msa_3.png" /> พื้นที่ภัยแล้ง', layer: layer_Drou_msa_3},
+            {label: '<img src="legend/Flood_msa_2.png" /> พื้นที่น้ำท่วม', layer: layer_Flood_msa_2},
             {label: "Google Satellite", layer: layer_GoogleSatellite_1},
             {label: "Google Maps", layer: layer_GoogleMaps_0},]
         var lay = L.control.layers.tree(null, overlaysTree,{
